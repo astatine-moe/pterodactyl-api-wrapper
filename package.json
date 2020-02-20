@@ -1,0 +1,22 @@
+{
+	"name": "pterodactyl-api-wrapper",
+	"version": "1.0.0",
+	"description": "An API wrapper for Pterodactyl Panel",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nekyoto/pterodactyl-api-wrapper.git"
+	},
+	"author": "Morgan Evans <morgan@morganevans.dev> (https://morganevans.dev/)",
+	"license": "GNU",
+	"bugs": {
+		"url": "https://github.com/nekyoto/pterodactyl-api-wrapper/issues"
+	},
+	"homepage": "https://github.com/nekyoto/pterodactyl-api-wrapper#readme",
+	"dependencies": {
+		"axios": "^0.19.2"
+	}
+}
