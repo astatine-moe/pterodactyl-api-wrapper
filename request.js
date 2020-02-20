@@ -35,6 +35,11 @@ const admin = {
 				});
 		});
 	},
+	/**
+	 * Makes a DELETE request
+	 * @param  {string} path API Endpoint path
+	 * @returns {Promise<{data: Object}>}
+	 */
 	deleteRequest: (path) => {
 		const host = process.env.ADMIN_HOST;
 		const key = process.env.ADMIN_KEY;
